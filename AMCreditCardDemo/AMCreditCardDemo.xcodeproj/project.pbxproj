@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75B638AA1FD7DA42008561B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B638A91FD7DA42008561B4 /* AppDelegate.swift */; };
+		75B638AC1FD7DA42008561B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B638AB1FD7DA42008561B4 /* ViewController.swift */; };
+		75B638AF1FD7DA42008561B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B638AD1FD7DA42008561B4 /* Main.storyboard */; };
+		75B638B11FD7DA42008561B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B638B01FD7DA42008561B4 /* Assets.xcassets */; };
+		75B638B41FD7DA42008561B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B638B21FD7DA42008561B4 /* LaunchScreen.storyboard */; };
+		75B638DB1FD7DA4F008561B4 /* AMCreditCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B638BC1FD7DA4F008561B4 /* AMCreditCardView.xib */; };
+		75B638DC1FD7DA4F008561B4 /* amexCardLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638BE1FD7DA4F008561B4 /* amexCardLogo.png */; };
+		75B638DD1FD7DA4F008561B4 /* amexCardLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638BF1FD7DA4F008561B4 /* amexCardLogo@2x.png */; };
+		75B638DE1FD7DA4F008561B4 /* discoverCardLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C01FD7DA4F008561B4 /* discoverCardLogo@3x.png */; };
+		75B638DF1FD7DA4F008561B4 /* chip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C11FD7DA4F008561B4 /* chip@2x.png */; };
+		75B638E01FD7DA4F008561B4 /* chip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C21FD7DA4F008561B4 /* chip@3x.png */; };
+		75B638E11FD7DA4F008561B4 /* discoverCardLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C31FD7DA4F008561B4 /* discoverCardLogo@2x.png */; };
+		75B638E21FD7DA4F008561B4 /* amexCardLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C41FD7DA4F008561B4 /* amexCardLogo@3x.png */; };
+		75B638E31FD7DA4F008561B4 /* chip.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C51FD7DA4F008561B4 /* chip.png */; };
+		75B638E41FD7DA4F008561B4 /* card_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C61FD7DA4F008561B4 /* card_bg@2x.png */; };
+		75B638E51FD7DA50008561B4 /* visaCardLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C71FD7DA4F008561B4 /* visaCardLogo.png */; };
+		75B638E61FD7DA50008561B4 /* masterCardLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C81FD7DA4F008561B4 /* masterCardLogo.png */; };
+		75B638E71FD7DA50008561B4 /* signatureBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638C91FD7DA4F008561B4 /* signatureBg@2x.png */; };
+		75B638E81FD7DA50008561B4 /* signatureBg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638CA1FD7DA4F008561B4 /* signatureBg@3x.png */; };
+		75B638E91FD7DA50008561B4 /* card_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638CB1FD7DA4F008561B4 /* card_bg@3x.png */; };
+		75B638EA1FD7DA50008561B4 /* maestroCardLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638CC1FD7DA4F008561B4 /* maestroCardLogo.png */; };
+		75B638EB1FD7DA50008561B4 /* card_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638CD1FD7DA4F008561B4 /* card_bg.png */; };
+		75B638EC1FD7DA50008561B4 /* visaCardLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638CE1FD7DA4F008561B4 /* visaCardLogo@3x.png */; };
+		75B638ED1FD7DA50008561B4 /* blackLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638CF1FD7DA4F008561B4 /* blackLine@3x.png */; };
+		75B638EE1FD7DA50008561B4 /* masterCardLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D01FD7DA4F008561B4 /* masterCardLogo@2x.png */; };
+		75B638EF1FD7DA50008561B4 /* maestroCardLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D11FD7DA4F008561B4 /* maestroCardLogo@2x.png */; };
+		75B638F01FD7DA50008561B4 /* signatureBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D21FD7DA4F008561B4 /* signatureBg.png */; };
+		75B638F11FD7DA50008561B4 /* discoverCardLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D31FD7DA4F008561B4 /* discoverCardLogo.png */; };
+		75B638F21FD7DA50008561B4 /* maestroCardLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D41FD7DA4F008561B4 /* maestroCardLogo@3x.png */; };
+		75B638F31FD7DA50008561B4 /* masterCardLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D51FD7DA4F008561B4 /* masterCardLogo@3x.png */; };
+		75B638F41FD7DA50008561B4 /* blackLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D61FD7DA4F008561B4 /* blackLine@2x.png */; };
+		75B638F51FD7DA50008561B4 /* visaCardLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D71FD7DA4F008561B4 /* visaCardLogo@2x.png */; };
+		75B638F61FD7DA50008561B4 /* blackLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D81FD7DA4F008561B4 /* blackLine.png */; };
+		75B638F71FD7DA50008561B4 /* CREDC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75B638D91FD7DA4F008561B4 /* CREDC.ttf */; };
+		75B638F81FD7DA50008561B4 /* AMCreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B638DA1FD7DA4F008561B4 /* AMCreditCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75B638A61FD7DA42008561B4 /* AMCreditCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMCreditCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B638A91FD7DA42008561B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75B638AB1FD7DA42008561B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75B638AE1FD7DA42008561B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75B638B01FD7DA42008561B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75B638B31FD7DA42008561B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75B638B51FD7DA42008561B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B638BC1FD7DA4F008561B4 /* AMCreditCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMCreditCardView.xib; sourceTree = "<group>"; };
+		75B638BE1FD7DA4F008561B4 /* amexCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amexCardLogo.png; sourceTree = "<group>"; };
+		75B638BF1FD7DA4F008561B4 /* amexCardLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amexCardLogo@2x.png"; sourceTree = "<group>"; };
+		75B638C01FD7DA4F008561B4 /* discoverCardLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discoverCardLogo@3x.png"; sourceTree = "<group>"; };
+		75B638C11FD7DA4F008561B4 /* chip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chip@2x.png"; sourceTree = "<group>"; };
+		75B638C21FD7DA4F008561B4 /* chip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chip@3x.png"; sourceTree = "<group>"; };
+		75B638C31FD7DA4F008561B4 /* discoverCardLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discoverCardLogo@2x.png"; sourceTree = "<group>"; };
+		75B638C41FD7DA4F008561B4 /* amexCardLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amexCardLogo@3x.png"; sourceTree = "<group>"; };
+		75B638C51FD7DA4F008561B4 /* chip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chip.png; sourceTree = "<group>"; };
+		75B638C61FD7DA4F008561B4 /* card_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_bg@2x.png"; sourceTree = "<group>"; };
+		75B638C71FD7DA4F008561B4 /* visaCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visaCardLogo.png; sourceTree = "<group>"; };
+		75B638C81FD7DA4F008561B4 /* masterCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masterCardLogo.png; sourceTree = "<group>"; };
+		75B638C91FD7DA4F008561B4 /* signatureBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signatureBg@2x.png"; sourceTree = "<group>"; };
+		75B638CA1FD7DA4F008561B4 /* signatureBg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signatureBg@3x.png"; sourceTree = "<group>"; };
+		75B638CB1FD7DA4F008561B4 /* card_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_bg@3x.png"; sourceTree = "<group>"; };
+		75B638CC1FD7DA4F008561B4 /* maestroCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maestroCardLogo.png; sourceTree = "<group>"; };
+		75B638CD1FD7DA4F008561B4 /* card_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_bg.png; sourceTree = "<group>"; };
+		75B638CE1FD7DA4F008561B4 /* visaCardLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visaCardLogo@3x.png"; sourceTree = "<group>"; };
+		75B638CF1FD7DA4F008561B4 /* blackLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackLine@3x.png"; sourceTree = "<group>"; };
+		75B638D01FD7DA4F008561B4 /* masterCardLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masterCardLogo@2x.png"; sourceTree = "<group>"; };
+		75B638D11FD7DA4F008561B4 /* maestroCardLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maestroCardLogo@2x.png"; sourceTree = "<group>"; };
+		75B638D21FD7DA4F008561B4 /* signatureBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signatureBg.png; sourceTree = "<group>"; };
+		75B638D31FD7DA4F008561B4 /* discoverCardLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discoverCardLogo.png; sourceTree = "<group>"; };
+		75B638D41FD7DA4F008561B4 /* maestroCardLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maestroCardLogo@3x.png"; sourceTree = "<group>"; };
+		75B638D51FD7DA4F008561B4 /* masterCardLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "masterCardLogo@3x.png"; sourceTree = "<group>"; };
+		75B638D61FD7DA4F008561B4 /* blackLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackLine@2x.png"; sourceTree = "<group>"; };
+		75B638D71FD7DA4F008561B4 /* visaCardLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visaCardLogo@2x.png"; sourceTree = "<group>"; };
+		75B638D81FD7DA4F008561B4 /* blackLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackLine.png; sourceTree = "<group>"; };
+		75B638D91FD7DA4F008561B4 /* CREDC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CREDC.ttf; sourceTree = "<group>"; };
+		75B638DA1FD7DA4F008561B4 /* AMCreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMCreditCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75B638A31FD7DA42008561B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75B6389D1FD7DA42008561B4 = {
+			isa = PBXGroup;
+			children = (
+				75B638A81FD7DA42008561B4 /* AMCreditCardDemo */,
+				75B638A71FD7DA42008561B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75B638A71FD7DA42008561B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B638A61FD7DA42008561B4 /* AMCreditCardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75B638A81FD7DA42008561B4 /* AMCreditCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				75B638BB1FD7DA4F008561B4 /* AMCreditCard */,
+				75B638A91FD7DA42008561B4 /* AppDelegate.swift */,
+				75B638AB1FD7DA42008561B4 /* ViewController.swift */,
+				75B638AD1FD7DA42008561B4 /* Main.storyboard */,
+				75B638B01FD7DA42008561B4 /* Assets.xcassets */,
+				75B638B21FD7DA42008561B4 /* LaunchScreen.storyboard */,
+				75B638B51FD7DA42008561B4 /* Info.plist */,
+			);
+			path = AMCreditCardDemo;
+			sourceTree = "<group>";
+		};
+		75B638BB1FD7DA4F008561B4 /* AMCreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				75B638BC1FD7DA4F008561B4 /* AMCreditCardView.xib */,
+				75B638BD1FD7DA4F008561B4 /* Images */,
+				75B638D91FD7DA4F008561B4 /* CREDC.ttf */,
+				75B638DA1FD7DA4F008561B4 /* AMCreditCardView.swift */,
+			);
+			name = AMCreditCard;
+			path = ../../AMCreditCard;
+			sourceTree = "<group>";
+		};
+		75B638BD1FD7DA4F008561B4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				75B638BE1FD7DA4F008561B4 /* amexCardLogo.png */,
+				75B638BF1FD7DA4F008561B4 /* amexCardLogo@2x.png */,
+				75B638C01FD7DA4F008561B4 /* discoverCardLogo@3x.png */,
+				75B638C11FD7DA4F008561B4 /* chip@2x.png */,
+				75B638C21FD7DA4F008561B4 /* chip@3x.png */,
+				75B638C31FD7DA4F008561B4 /* discoverCardLogo@2x.png */,
+				75B638C41FD7DA4F008561B4 /* amexCardLogo@3x.png */,
+				75B638C51FD7DA4F008561B4 /* chip.png */,
+				75B638C61FD7DA4F008561B4 /* card_bg@2x.png */,
+				75B638C71FD7DA4F008561B4 /* visaCardLogo.png */,
+				75B638C81FD7DA4F008561B4 /* masterCardLogo.png */,
+				75B638C91FD7DA4F008561B4 /* signatureBg@2x.png */,
+				75B638CA1FD7DA4F008561B4 /* signatureBg@3x.png */,
+				75B638CB1FD7DA4F008561B4 /* card_bg@3x.png */,
+				75B638CC1FD7DA4F008561B4 /* maestroCardLogo.png */,
+				75B638CD1FD7DA4F008561B4 /* card_bg.png */,
+				75B638CE1FD7DA4F008561B4 /* visaCardLogo@3x.png */,
+				75B638CF1FD7DA4F008561B4 /* blackLine@3x.png */,
+				75B638D01FD7DA4F008561B4 /* masterCardLogo@2x.png */,
+				75B638D11FD7DA4F008561B4 /* maestroCardLogo@2x.png */,
+				75B638D21FD7DA4F008561B4 /* signatureBg.png */,
+				75B638D31FD7DA4F008561B4 /* discoverCardLogo.png */,
+				75B638D41FD7DA4F008561B4 /* maestroCardLogo@3x.png */,
+				75B638D51FD7DA4F008561B4 /* masterCardLogo@3x.png */,
+				75B638D61FD7DA4F008561B4 /* blackLine@2x.png */,
+				75B638D71FD7DA4F008561B4 /* visaCardLogo@2x.png */,
+				75B638D81FD7DA4F008561B4 /* blackLine.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75B638A51FD7DA42008561B4 /* AMCreditCardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75B638B81FD7DA42008561B4 /* Build configuration list for PBXNativeTarget "AMCreditCardDemo" */;
+			buildPhases = (
+				75B638A21FD7DA42008561B4 /* Sources */,
+				75B638A31FD7DA42008561B4 /* Frameworks */,
+				75B638A41FD7DA42008561B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMCreditCardDemo;
+			productName = AMCreditCardDemo;
+			productReference = 75B638A61FD7DA42008561B4 /* AMCreditCardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75B6389E1FD7DA42008561B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Artur Mkrtchyan";
+				TargetAttributes = {
+					75B638A51FD7DA42008561B4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 75B638A11FD7DA42008561B4 /* Build configuration list for PBXProject "AMCreditCardDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75B6389D1FD7DA42008561B4;
+			productRefGroup = 75B638A71FD7DA42008561B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75B638A51FD7DA42008561B4 /* AMCreditCardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75B638A41FD7DA42008561B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B638E21FD7DA4F008561B4 /* amexCardLogo@3x.png in Resources */,
+				75B638E01FD7DA4F008561B4 /* chip@3x.png in Resources */,
+				75B638B41FD7DA42008561B4 /* LaunchScreen.storyboard in Resources */,
+				75B638F21FD7DA50008561B4 /* maestroCardLogo@3x.png in Resources */,
+				75B638ED1FD7DA50008561B4 /* blackLine@3x.png in Resources */,
+				75B638E61FD7DA50008561B4 /* masterCardLogo.png in Resources */,
+				75B638F71FD7DA50008561B4 /* CREDC.ttf in Resources */,
+				75B638B11FD7DA42008561B4 /* Assets.xcassets in Resources */,
+				75B638AF1FD7DA42008561B4 /* Main.storyboard in Resources */,
+				75B638EC1FD7DA50008561B4 /* visaCardLogo@3x.png in Resources */,
+				75B638F41FD7DA50008561B4 /* blackLine@2x.png in Resources */,
+				75B638DB1FD7DA4F008561B4 /* AMCreditCardView.xib in Resources */,
+				75B638F31FD7DA50008561B4 /* masterCardLogo@3x.png in Resources */,
+				75B638E41FD7DA4F008561B4 /* card_bg@2x.png in Resources */,
+				75B638DF1FD7DA4F008561B4 /* chip@2x.png in Resources */,
+				75B638E11FD7DA4F008561B4 /* discoverCardLogo@2x.png in Resources */,
+				75B638E71FD7DA50008561B4 /* signatureBg@2x.png in Resources */,
+				75B638E51FD7DA50008561B4 /* visaCardLogo.png in Resources */,
+				75B638DE1FD7DA4F008561B4 /* discoverCardLogo@3x.png in Resources */,
+				75B638F61FD7DA50008561B4 /* blackLine.png in Resources */,
+				75B638DD1FD7DA4F008561B4 /* amexCardLogo@2x.png in Resources */,
+				75B638E91FD7DA50008561B4 /* card_bg@3x.png in Resources */,
+				75B638EF1FD7DA50008561B4 /* maestroCardLogo@2x.png in Resources */,
+				75B638DC1FD7DA4F008561B4 /* amexCardLogo.png in Resources */,
+				75B638F11FD7DA50008561B4 /* discoverCardLogo.png in Resources */,
+				75B638EB1FD7DA50008561B4 /* card_bg.png in Resources */,
+				75B638F51FD7DA50008561B4 /* visaCardLogo@2x.png in Resources */,
+				75B638EE1FD7DA50008561B4 /* masterCardLogo@2x.png in Resources */,
+				75B638F01FD7DA50008561B4 /* signatureBg.png in Resources */,
+				75B638EA1FD7DA50008561B4 /* maestroCardLogo.png in Resources */,
+				75B638E81FD7DA50008561B4 /* signatureBg@3x.png in Resources */,
+				75B638E31FD7DA4F008561B4 /* chip.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75B638A21FD7DA42008561B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B638AC1FD7DA42008561B4 /* ViewController.swift in Sources */,
+				75B638AA1FD7DA42008561B4 /* AppDelegate.swift in Sources */,
+				75B638F81FD7DA50008561B4 /* AMCreditCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75B638AD1FD7DA42008561B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75B638AE1FD7DA42008561B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75B638B21FD7DA42008561B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75B638B31FD7DA42008561B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75B638B61FD7DA42008561B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75B638B71FD7DA42008561B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75B638B91FD7DA42008561B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8CSJE9SQ2;
+				INFOPLIST_FILE = AMCreditCardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturiosdev.AMCreditCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75B638BA1FD7DA42008561B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U8CSJE9SQ2;
+				INFOPLIST_FILE = AMCreditCardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturiosdev.AMCreditCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75B638A11FD7DA42008561B4 /* Build configuration list for PBXProject "AMCreditCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B638B61FD7DA42008561B4 /* Debug */,
+				75B638B71FD7DA42008561B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75B638B81FD7DA42008561B4 /* Build configuration list for PBXNativeTarget "AMCreditCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B638B91FD7DA42008561B4 /* Debug */,
+				75B638BA1FD7DA42008561B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75B6389E1FD7DA42008561B4 /* Project object */;
+}
