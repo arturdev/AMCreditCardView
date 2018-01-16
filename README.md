@@ -11,3 +11,11 @@ INSTALLATION
 =====
 
 Copy <b>AMCreditCardView</b> folder to your project.
+
+
+<h2>LICENSE</h2>
+SOMotionDetector is under MIT License (see LICENSE file)
+
+<h2>IMPORTANT NOTE</h2>
+Font "CREDC.ttf" used in this library is <b>Free for Personal Use</b> ONLY! <br>
+You can buy Commercial License <a href="http://www.k-type.com/fonts/credit-card/">here</a>
