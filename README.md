@@ -10,7 +10,7 @@ iOS 10.0 + <br>
 INSTALLATION
 =====
 
-Copy <b>AMCreditCardView</b> folder to your project.
+Copy <b>AMCreditCard</b> folder to your project.
 
 
 <h2>LICENSE</h2>
